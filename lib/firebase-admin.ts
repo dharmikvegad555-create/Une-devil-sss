@@ -5,15 +5,15 @@ import path from "path";
 
 // Embedded default fallback config for serverless environments
 const DEFAULT_FIREBASE_CONFIG = {
-  projectId: "une-devil-e4fd1",
-  appId: "1:235715755531:web:f6e4b0d7170333372b510e",
-  apiKey: "AIzaSyCDLCDxA1_6Q0NQGS2FysLxzwSc-yG05ZM",
-  authDomain: "une-devil-e4fd1.firebaseapp.com",
-  databaseURL: "https://une-devil-e4fd1-default-rtdb.firebaseio.com",
+  projectId: "une-devil-d660f",
+  appId: "1:351527494360:web:435143350f16f7a9df2dad",
+  apiKey: "AIzaSyC1wA4ZCOywanktAEHFyUl7sQWx-N5ynwM",
+  authDomain: "une-devil-d660f.firebaseapp.com",
+  databaseURL: "https://une-devil-d660f-default-rtdb.firebaseio.com",
   firestoreDatabaseId: "(default)",
-  storageBucket: "une-devil-e4fd1.firebasestorage.app",
-  messagingSenderId: "235715755531",
-  measurementId: "G-PMHW2PBWJQ"
+  storageBucket: "une-devil-d660f.firebasestorage.app",
+  messagingSenderId: "351527494360",
+  measurementId: ""
 };
 
 export function getFirebaseAdmin() {
@@ -34,7 +34,7 @@ export function getFirebaseAdmin() {
     process.env.GOOGLE_CLOUD_PROJECT || 
     process.env.FIREBASE_PROJECT_ID || 
     firebaseConfig.projectId || 
-    "une-devil-e4fd1";
+    "une-devil-d660f";
 
   const databaseId = 
     process.env.FIRESTORE_DATABASE_ID || 
